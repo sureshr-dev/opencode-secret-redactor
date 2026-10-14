@@ -201,4 +201,7 @@ unattended redaction.
 
 ## License
 
-[MIT](./LICENSE). Vendored Gitleaks rules are also MIT licensed.
+[MIT](./LICENSE).
+
+This project vendors a curated subset of regular-expression rules from
+[Gitleaks](https://github.com/gitleaks/gitleaks), which is also MIT licensed.
