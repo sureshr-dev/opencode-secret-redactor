@@ -1,0 +1,29 @@
+{
+  "name": "opencode-secret-redactor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An OpenCode plugin that redacts secrets from the outbound LLM prompt via known-value and Gitleaks-pattern matching.",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "secrets",
+    "redaction",
+    "security",
+    "gitleaks",
+    "llm"
+  ],
+  "license": "MIT",
+  "author": "Suresh Rajendran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshr-dev/opencode-secret-redactor.git"
+  },
+  "homepage": "https://github.com/sureshr-dev/opencode-secret-redactor#readme",
+  "bugs": {
+    "url": "https://github.com/sureshr-dev/opencode-secret-redactor/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@opencode/plugin": "^2.0.28"
+  }
+}

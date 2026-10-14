@@ -1,0 +1,14 @@
+# Local secret store — NEVER commit real secrets
+secrets.local
+
+# Runtime log produced by the plugin
+redactor.log
+
+# Dependencies / build
+node_modules/
+*.log
+
+# Editor / OS cruft
+.DS_Store
+.idea/
+.vscode/
